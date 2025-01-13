@@ -273,11 +273,11 @@ select:hover {
     flex-direction: row;
     gap: 50px;
     padding: 20px 30px;
-    border-radius: 20px;
+    border-radius: 16px;
 }
 
 .news-img {
-    border-radius: 24px;
+    border-radius: 20px;
 }
 
 .news-button {
@@ -299,7 +299,7 @@ select:hover {
     flex-direction: row-reverse;
     gap: 50px;
     padding: 20px 30px;
-    border-radius: 20px;
+    border-radius: 16px;
 }
 
 .news-button:hover {
