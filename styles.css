@@ -222,3 +222,167 @@ h1 {
 .name {
     font-weight: bold;
 }
+
+/* opinion */
+
+.tbl-heading {
+    text-align: left;
+}
+
+.table-container {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: fit-content;
+    border-radius: 10px;
+}
+
+.table {
+    margin: 20px;
+    font-size: 16px;
+    border-collapse: collapse;
+    background-color: white;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #C6E4D6;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #C6E4D6;
+    font-weight: bold;
+}
+
+select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #C6E4D6;
+    border-radius: 5px;
+    background-color: #C6E4D6;
+    cursor: pointer;
+}
+
+
+select:hover {
+    background-color: #85c6a5;
+}
+
+
+/* news */
+
+
+.news-container {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+
+.news-img {
+    border-radius: 24px;
+}
+
+.news-button {
+    background-color: #006A4E;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+
+.news {
+    max-width: 50%;
+}
+
+.news-reverse {
+    background-color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+
+
+
+.news-button:hover {
+    background-color: #004d36;
+}
+
+.date {
+    display: block;
+}
+
+
+/* donate */
+
+
+.donate-text {
+    text-align: center;
+}
+
+.tk {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 24px;
+    margin-top: 30px;
+}
+
+.button-tk {
+    color: rgb(57, 56, 56);
+    padding: 30px 50px;
+    border: none;
+    border-radius: 16px;
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: #FFFFFF;
+}
+
+
+.bg-clr-tk {
+    background-color: #C6E4D6;
+}
+
+
+.button-tk:hover {
+    background-color: #C6E4D6;
+}
+
+.form {
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px 350px;
+    font-size: 20px;
+    /* margin: 0 auto; */
+    border: #3f3f3f;
+    border-radius: 5px;
+}
+
+.donate-button {
+    background-color: #006A4E;
+    color: white;
+    font-weight: bold;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+.donate-button:hover {
+    background-color: #004d36;
+}
